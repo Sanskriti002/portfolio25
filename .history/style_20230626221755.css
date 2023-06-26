@@ -151,11 +151,10 @@
     cursor: pointer;
   }
    #skills img {
-    height: 90vh;
+    height: 100vh;
     position:absolute;
     top:0;
     right:0;
-    margin-right:40px;
     
    }
 

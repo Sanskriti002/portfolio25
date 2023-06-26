@@ -4,9 +4,7 @@
 @media (min-width: 601px) and (max-width: 1024px){
 
 }
-@media (min-width: 1025px) {
-  
-}
+
 
 
 
@@ -108,7 +106,6 @@
     height: 100vh;
     padding:40px;
     background-color:#e5f5e5;
-    position:relative;
   }
 
   #skills p{
@@ -151,11 +148,7 @@
     cursor: pointer;
   }
    #skills img {
-    height: 90vh;
-    position:absolute;
-    top:0;
-    right:0;
-    margin-right:40px;
+    height: 10vh;
     
    }
 
