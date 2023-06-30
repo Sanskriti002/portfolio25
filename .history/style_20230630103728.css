@@ -12,12 +12,12 @@
   nav{
     background-color:#a0c49d;
     text-align: right; 
-    padding: 15px;
+    padding: 20px;
     overflow: hidden;
     top:0px;
     position:sticky;
     width:100%;
-    z-index:1;
+    z-index: 1;
     
     
   }

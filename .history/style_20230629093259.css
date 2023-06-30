@@ -2,7 +2,7 @@
      .modal-content {
       width: 100%;
      }
-    }
+}
 *{
     margin :0;
     padding:0;
@@ -12,13 +12,9 @@
   nav{
     background-color:#a0c49d;
     text-align: right; 
-    padding: 15px;
+    padding: 20px;
     overflow: hidden;
-    top:0px;
-    position:sticky;
-    width:100%;
-    z-index:1;
-    
+    position: ;
     
   }
 
@@ -177,7 +173,7 @@
   
   #hobbies {
     margin-top:0px;
-    height:100vh;
+    height:110vh;
     padding:20px;
     background-color: #eff9d6; 
   }
