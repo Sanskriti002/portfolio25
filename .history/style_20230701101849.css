@@ -7,22 +7,10 @@
  
 @media  only screen and (max-width: 749px) {
      .grid-container {
-      display:grid;
-      gap:10px;
+      background-color: blue;
       grid-template-columns: auto auto;
-  
      }
-     #skills img {
-      height: 90vh;
-      position:absolute;
-      top:0;
-      right:0;
-      margin-right:40px;
-      display:none; 
-     }
-     
-    
-    
+   
     }
 
   nav{
@@ -73,7 +61,7 @@
     background-repeat:no-repeat;
     background-size:cover;
     position:relative;
-    height: 80vh;
+    height: 90vh;
   } 
   #home div{
     position:absolute;
@@ -94,23 +82,21 @@
     padding:100px; 
     background-image:url('thinking (2).png'); 
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     position:relative;
-    height: 80vh;
+    height: 100vh;
   }
 
   #about h4{
-    font-size:20px;
+    font-size:32px;
     position: absolute;
     transform: translate(-50%,-50%) ;
-    top:18%;
-  
-   
+    top:38%;
+    left:55%;  
   }
 
   #skills div{
     line-height: 40px;
-    
     
     
   }
@@ -133,7 +119,7 @@
   }
 
   .skills-container{
-    width:100%;
+    width:50%;
     
   }
 
@@ -167,18 +153,24 @@
     background:darkblue;
     cursor: pointer;
   }
-   
-  
+   #skills img {
+    height: 90vh;
+    position:absolute;
+    top:0;
+    right:0;
+    margin-right:40px;
+    
+   }
+
   .btn {
     background-color:rgb(2, 97, 2);
     border: none;
     color: white;
-    padding: 10px 10px;
+    padding: 12px 30px;
     cursor: pointer;
     font-size: 20px;
     border-radius: 10px;
   }
-
   
   
   .btn:hover {
@@ -189,7 +181,7 @@
   
   #hobbies {
     margin-top:0px;
-    height:50vh;
+    height:100vh;
     padding:20px;
     background-color: #eff9d6; 
   }
@@ -200,46 +192,12 @@
     text-align: center;
     color:#0a540a;
   }
-  @media  only screen and (min-width: 750px) {
+  
   .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
 }
-#hobbies {
-  height: 100vh;
-}
-#about h4 {
-  font-size:32px;
-  top:38%;
-  left:55%;
-}
-#about {
-  background-size: cover;
-  height: 100vh;
-}
-#home {
-  height: 100vh;
-}
-.skills-container {
-  width:50%;
-}
-#skills img {
-  height: 90vh;
-  position:absolute;
-  top:0;
-  right:0;
-  margin-right:40px;
-  
-
-  
- }
-
-
-}
-
-
-
 
 .grid-item {
     display: flex;

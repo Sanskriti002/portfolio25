@@ -18,10 +18,11 @@
       top:0;
       right:0;
       margin-right:40px;
-      display:none; 
-     }
-     
+      diaplay:none;
+      
     
+      
+     }
     
     }
 
@@ -104,7 +105,7 @@
     position: absolute;
     transform: translate(-50%,-50%) ;
     top:18%;
-  
+   
    
   }
 
@@ -167,7 +168,16 @@
     background:darkblue;
     cursor: pointer;
   }
-   
+   #skills img {
+    height: 90vh;
+    position:absolute;
+    top:0;
+    right:0;
+    margin-right:40px;
+    
+  
+    
+   }
   
   .btn {
     background-color:rgb(2, 97, 2);
@@ -224,16 +234,6 @@
 .skills-container {
   width:50%;
 }
-#skills img {
-  height: 90vh;
-  position:absolute;
-  top:0;
-  right:0;
-  margin-right:40px;
-  
-
-  
- }
 
 
 }

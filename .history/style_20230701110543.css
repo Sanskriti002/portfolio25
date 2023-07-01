@@ -12,16 +12,7 @@
       grid-template-columns: auto auto;
   
      }
-     #skills img {
-      height: 90vh;
-      position:absolute;
-      top:0;
-      right:0;
-      margin-right:40px;
-      display:none; 
-     }
-     
-    
+   
     
     }
 
@@ -100,11 +91,10 @@
   }
 
   #about h4{
-    font-size:20px;
+    font-size:16px;
     position: absolute;
     transform: translate(-50%,-50%) ;
     top:18%;
-  
    
   }
 
@@ -133,7 +123,7 @@
   }
 
   .skills-container{
-    width:100%;
+    width:50%;
     
   }
 
@@ -167,7 +157,14 @@
     background:darkblue;
     cursor: pointer;
   }
-   
+   #skills img {
+    height: 90vh;
+    position:absolute;
+    top:0;
+    right:0;
+    margin-right:40px;
+    
+   }
   
   .btn {
     background-color:rgb(2, 97, 2);
@@ -189,7 +186,7 @@
   
   #hobbies {
     margin-top:0px;
-    height:50vh;
+    height:60vh;
     padding:20px;
     background-color: #eff9d6; 
   }
@@ -221,24 +218,7 @@
 #home {
   height: 100vh;
 }
-.skills-container {
-  width:50%;
-}
-#skills img {
-  height: 90vh;
-  position:absolute;
-  top:0;
-  right:0;
-  margin-right:40px;
-  
-
-  
- }
-
-
-}
-
-
+  }
 
 
 .grid-item {
