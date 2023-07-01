@@ -73,19 +73,15 @@
   }
 
   #about h4{
-    font-size:28px;
+    font-size:20px;
+   
     transform: translate(-50%,-50%) ;
     margin-top: 20px;
     margin-left: 20px;
   
    
   }
-  #hobbies h2{
-    margin-bottom: 20px;
-    font-size: 28px;
-    text-align: center;
-    color:#0a540a;
-  }
+  
     }
 
   
@@ -215,7 +211,12 @@
     background-color: #eff9d6; 
   }
 
- 
+  #hobbies h2{
+    margin-bottom: 20px;
+    font-size: 32px;
+    text-align: center;
+    color:#0a540a;
+  }
   @media  only screen and (min-width: 750px) {
   .grid-container {
     display: grid;

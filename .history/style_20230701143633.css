@@ -20,77 +20,33 @@
       margin-right:40px;
       display:none; 
      }
-    nav {
-      background-color:#a0c49d;
+     nav {
+      padd8px;
+     }
+    
+    
+    }
+
+  nav{
+    background-color:#a0c49d;
     text-align: right; 
-    padding: 8px;
+    padding: 15px;
     overflow: hidden;
     top:0px;
     position:sticky;
     width:100%;
     z-index:1;
     
-     }
-    nav ul li {
-      nav ul li{
-        display:inline-block;
-        padding:0px 50px; 
-        font-size: 20px;
-      }
     
-    }
-    nav img{
-      position:relative;
-      height:10vh;
-    
-    
-  
-    }
-    #about {
-      margin:0;
-      padding:100px; 
-      background-image:url('thinking (2).png'); 
-      background-repeat: no-repeat;
-      background-size: 1350px;
-      position:relative;
-      height: 80vh;
-    }
-    #skills h1{
-      text-align: center;
-      font-size: 28px;
-      color:#006400;
-  
-    }
-    #skills p{
-      font-size: 20px;
-    }
-    
-  #skills {
-    height: 100vh;
-    padding:20px;
-    background-color:#e1ecc8;
+  }
+
+  nav img{
     position:relative;
-  }
-
-  #about h4{
-    font-size:28px;
-    transform: translate(-50%,-50%) ;
-    margin-top: 20px;
-    margin-left: 20px;
+    height:6vh;
   
-   
-  }
-  #hobbies h2{
-    margin-bottom: 20px;
-    font-size: 28px;
-    text-align: center;
-    color:#0a540a;
-  }
-    }
-
   
 
- 
+  }
     
   nav ul{ 
     list-style-type: none;
@@ -98,6 +54,11 @@
     padding: 0;
   }
 
+  nav ul li{
+    display:inline-block;
+    padding:0px 50px; 
+    font-size: 28px;
+  }
 
   nav ul li a{
     color:darkblue;
@@ -130,7 +91,15 @@
     text-shadow:#000 1px 0 10px;
   }
 
- 
+  #about {
+    margin:0;
+    padding:100px; 
+    background-image:url('thinking (2).png'); 
+    background-repeat: no-repeat;
+    background-size: auto;
+    position:relative;
+    height: 80vh;
+  }
 
   #about h4{
     font-size:20px;
@@ -148,10 +117,22 @@
     
   }
 
- 
- 
+  #skills h1{
+    text-align: center;
+    font-size: 32px;
+    color:#006400;
 
-  
+  }
+  #skills {
+    height: 100vh;
+    padding:40px;
+    background-color:#e1ecc8;
+    position:relative;
+  }
+
+  #skills p{
+    font-size: 28px;
+  }
 
   .skills-container{
     width:100%;
@@ -215,7 +196,12 @@
     background-color: #eff9d6; 
   }
 
- 
+  #hobbies h2{
+    margin-bottom: 20px;
+    font-size: 32px;
+    text-align: center;
+    color:#0a540a;
+  }
   @media  only screen and (min-width: 750px) {
   .grid-container {
     display: grid;
@@ -226,24 +212,14 @@
   height: 100vh;
 }
 #about h4 {
-  position: absolute;
-  transform: translate(-50%,-50%) ;
   font-size:32px;
   top:38%;
   left:55%;
 }
 #about {
-  
-    margin:0;
-    padding:100px; 
-    background-image:url('thinking (2).png'); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    position:relative;
-    height: 100vh;
-  }
-
-
+  background-size: cover;
+  height: 100vh;
+}
 #home {
   height: 100vh;
 }
@@ -260,53 +236,9 @@
 
   
  }
- nav{
-  background-color:#a0c49d;
-  text-align: right; 
-  padding: 15px;
-  overflow: hidden;
-  top:0px;
-  position:sticky;
-  width:100%;
-  z-index:1;
-  
-  
-}
-nav ul li{
-  display:inline-block;
-  padding:0px 50px; 
-  font-size: 28px;
-}
-nav img{
-  position:relative;
-  height:6vh;
-
 
 
 }
-#skills h1{
-  text-align: center;
-  font-size: 32px;
-  color:#006400;
-
-}
-#skills p{
-  font-size: 28px;
-}
-
-#skills {
-  height: 100vh;
-  padding:40px;
-  background-color:#e1ecc8;
-  position:relative;
-}
-#hobbies h2{
-  margin-bottom: 20px;
-  font-size: 32px;
-  text-align: center;
-  color:#0a540a;
-}
-  }
 
 
 

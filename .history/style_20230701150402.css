@@ -73,7 +73,8 @@
   }
 
   #about h4{
-    font-size:28px;
+    font-size:20px;
+   
     transform: translate(-50%,-50%) ;
     margin-top: 20px;
     margin-left: 20px;
@@ -82,7 +83,7 @@
   }
   #hobbies h2{
     margin-bottom: 20px;
-    font-size: 28px;
+    font-size: 20px;
     text-align: center;
     color:#0a540a;
   }
@@ -211,7 +212,7 @@
   #hobbies {
     margin-top:0px;
     height:70vh;
-    padding:20px;
+    padding:28px;
     background-color: #eff9d6; 
   }
 

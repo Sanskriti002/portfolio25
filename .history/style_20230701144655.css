@@ -55,37 +55,8 @@
       position:relative;
       height: 80vh;
     }
-    #skills h1{
-      text-align: center;
-      font-size: 28px;
-      color:#006400;
   
-    }
-    #skills p{
-      font-size: 20px;
-    }
     
-  #skills {
-    height: 100vh;
-    padding:20px;
-    background-color:#e1ecc8;
-    position:relative;
-  }
-
-  #about h4{
-    font-size:28px;
-    transform: translate(-50%,-50%) ;
-    margin-top: 20px;
-    margin-left: 20px;
-  
-   
-  }
-  #hobbies h2{
-    margin-bottom: 20px;
-    font-size: 28px;
-    text-align: center;
-    color:#0a540a;
-  }
     }
 
   
@@ -148,10 +119,22 @@
     
   }
 
- 
- 
+  #skills h1{
+    text-align: center;
+    font-size: 32px;
+    color:#006400;
 
-  
+  }
+  #skills {
+    height: 100vh;
+    padding:40px;
+    background-color:#e1ecc8;
+    position:relative;
+  }
+
+  #skills p{
+    font-size: 28px;
+  }
 
   .skills-container{
     width:100%;
@@ -215,7 +198,12 @@
     background-color: #eff9d6; 
   }
 
- 
+  #hobbies h2{
+    margin-bottom: 20px;
+    font-size: 32px;
+    text-align: center;
+    color:#0a540a;
+  }
   @media  only screen and (min-width: 750px) {
   .grid-container {
     display: grid;
@@ -226,14 +214,12 @@
   height: 100vh;
 }
 #about h4 {
-  position: absolute;
-  transform: translate(-50%,-50%) ;
   font-size:32px;
   top:38%;
   left:55%;
 }
 #about {
-  
+  #about {
     margin:0;
     padding:100px; 
     background-image:url('thinking (2).png'); 
@@ -243,7 +229,7 @@
     height: 100vh;
   }
 
-
+}
 #home {
   height: 100vh;
 }
@@ -284,29 +270,8 @@ nav img{
 
 
 }
-#skills h1{
-  text-align: center;
-  font-size: 32px;
-  color:#006400;
 
 }
-#skills p{
-  font-size: 28px;
-}
-
-#skills {
-  height: 100vh;
-  padding:40px;
-  background-color:#e1ecc8;
-  position:relative;
-}
-#hobbies h2{
-  margin-bottom: 20px;
-  font-size: 32px;
-  text-align: center;
-  color:#0a540a;
-}
-  }
 
 
 
